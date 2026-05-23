@@ -1,0 +1,277 @@
+/* === GİRİŞ EKRANI ARKA PLANI === */
+.login-pane {
+    -fx-background-image: url("logo.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* === DİĞER TÜM EKRANLARIN ARKA PLANI === */
+.root {
+    -fx-background-color: #f3fff5;
+    -fx-font-family: 'Segoe UI', 'Arial';
+}
+
+/* === ÜST BAŞLIK (YEŞİL BAR) === */
+.header {
+    -fx-background-color: #1b8a3f;
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-alignment: center-left;
+    -fx-padding: 10 0 10 15;
+}
+
+/* === HOŞGELDİN METNİ === */
+.subheader {
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+    -fx-padding: 0 0 10 15;
+}
+
+/* === KART / PANEL TASARIMI === */
+.card {
+    -fx-background-color: white;
+    -fx-border-color: #dddddd;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0.3, 0, 2);
+}
+
+/* === MENÜ BAŞLIKLARI === */
+.menu-header {
+    -fx-font-weight: bold;
+    -fx-text-fill: #1b5e20;
+    -fx-font-size: 15px;
+}
+
+/* === GENEL BUTONLAR (YEŞİL) === */
+.button {
+    -fx-background-color: #2e7d32;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #1b5e20;
+}
+
+/* === ÇIKIŞ (KIRMIZI) BUTONU === */
+.logout-btn {
+    -fx-background-color: #d9534f;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 15 8 15;
+}
+
+.logout-btn:hover {
+    -fx-background-color: #b52b27;
+}
+
+/* === COMBOBOX GÖRÜNÜMÜ === */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-font-size: 13px;
+}
+
+.combo-box:hover {
+    -fx-border-color: #2e7d32;
+}
+
+/* === LİSTE GÖRÜNÜMÜ === */
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dddddd;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+/* === SEPARATOR (ÇİZGİLER) === */
+.separator *.line {
+    -fx-border-color: #cccccc;
+}
+
+/* === SCROLLPANE === */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+/* === KIRMIZI (Listeyi Yenile) BUTONU === */
+.refresh-btn {
+    -fx-background-color: #d9534f;
+    /* kırmızı */
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+}
+
+.refresh-btn:hover {
+    -fx-background-color: #b52b27;
+    /* koyu kırmızı */
+}
+
+/* === GİRİŞ EKRANI (Main.java) === */
+.login-btn {
+    -fx-background-color: #1b8a3f;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+}
+
+.login-btn:hover {
+    -fx-background-color: #166d32;
+}
+
+.text-field,
+.password-field {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #cccccc;
+}
+
+.text-field:focused,
+.password-field:focused {
+    -fx-border-color: #1b8a3f;
+}
+
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0.3, 0, 3);
+}
+
+.header {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1b5e20;
+    -fx-padding: 10 0 15 0;
+}
+
+.login-btn {
+    -fx-background-color: #2e7d32;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 16 8 16;
+}
+
+.login-btn:hover {
+    -fx-background-color: #388e3c;
+}
+
+/* === ÜST BAŞLIK (YEŞİL BAR) === */
+.header {
+    -fx-background-color: #1b8a3f;
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-padding: 12 0 12 15;
+    -fx-alignment: center-left;
+}
+
+/* === ALT BAŞLIK / AÇIKLAMA === */
+.subheader {
+    -fx-text-fill: #1b8a3f;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* === KART / PANEL (BEYAZ ALANLAR) === */
+.card {
+    -fx-background-color: white;
+    -fx-border-color: #1b8a3f;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 15;
+}
+
+/* === BUTTONLAR === */
+.button {
+    -fx-background-color: #1b8a3f;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #166e33;
+}
+
+/* === TABLO === */
+.table-view {
+    -fx-background-color: white;
+
+    -fx-border-radius: 6;
+}
+
+.table-view .column-header {
+
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #d1f5da;
+}
+
+/* === TABLAR (TABPANE) === */
+.tab-pane {
+    -fx-background-color: #f3fff5;
+    -fx-border-color: #1b8a3f;
+    -fx-border-radius: 6;
+}
+
+.tab:selected {
+    -fx-background-color: #1b8a3f;
+    -fx-text-base-color: white;
+    -fx-font-weight: bold;
+}
+
+/* === TEXTAREA / LOG PANELİ === */
+.text-area {
+    -fx-control-inner-background: #f3fff5;
+    -fx-text-fill: #1b8a3f;
+    -fx-font-weight: bold;
+    -fx-border-color: #1b8a3f;
+    -fx-border-radius: 6;
+}
+
+/* === LABEL === */
+.label {
+    -fx-text-fill: #1b8a3f;
+    -fx-font-weight: bold;
+}
+
+/* === COMBOBOX & DATEPICKER === */
+.combo-box,
+.date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #1b8a3f;
+    -fx-border-radius: 5;
+}
+
+.combo-box:hover,
+.date-picker:hover {
+    -fx-border-color: #166e33;
+}
