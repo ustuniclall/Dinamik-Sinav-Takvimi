@@ -1,0 +1,24 @@
+# --- NetBeans / IntelliJ / Eclipse IDE ve Sistem Dosyaları ---
+.idea/
+.vscode/
+.nbproject/
+nbproject/
+build/
+dist/
+nbauto/
+.DS_Store
+Thumbs.db
+*.suo
+*.sln
+
+# --- Java Derleme ve Log Dosyaları ---
+*.class
+*.jar
+*.war
+*.log
+built-jar.properties
+
+# --- Excel ve PDF Çıktıları (Yerel Test Kalıntıları) ---
+*.xlsx
+*.xls
+*.pdf
