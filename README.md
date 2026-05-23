@@ -41,11 +41,11 @@ Sistem, veri bütünlüğünü ve kısıt kontrollerini sağlamak amacıyla MySQ
 
 | Giriş Ekranı (Login) | Bölüm Koordinatörü Paneli | Sınav Programı ve Raporlama |
 | :---: | :---: | :---: |
-| <img src="screenshots/giris_ekrani.png" width="230"> | <img src="screenshots/koordinator_paneli.png" width="230"> | <img src="screenshots/sinav_programi.png" width="230"> |
+| <img src="giris_ekrani.png" width="230"> | <img src="koordinator_paneli.png" width="230"> | <img src="sinav_programi.png" width="230"> |
 
 | Admin Genel Yönetim | Otomatik Oturma Planı Arayüzü | PDF Çıktısı (Oturma Planı) |
 | :---: | :---: | :---: |
-| <img src="screenshots/admin_paneli.png" width="230"> | <img src="screenshots/oturma_plani_gui.png" width="230"> | <img src="screenshots/oturma_plani.png" width="230"> | <img src="screenshots/derslik_girisi.png" width="230"> |
+| <img src="admin_paneli.png" width="230"> | <img src="oturma_plani_gui.png" width="230"> | <img src="oturma_plani.png" width="230"> | <img src="derslik_girisi.png" width="230"> |
 
 ## 👥 Geliştiriciler
 * **Merve Kübra ÖZTÜRK**
