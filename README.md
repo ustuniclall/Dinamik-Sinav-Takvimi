@@ -43,7 +43,7 @@ Sistem, veri bütünlüğünü ve kısıt kontrollerini sağlamak amacıyla MySQ
 | :---: | :---: | :---: |
 | <img src="giris_ekrani.png" width="230"> | <img src="koordinator_paneli.png" width="230"> | <img src="sinav_programi.png" width="230"> |
 
-| Admin Genel Yönetim | Otomatik Oturma Planı Arayüzü | Oturma Planı |
+| Admin Genel Yönetim | Oturma Planı | Otomatik Oturma Planı Arayüzü |
 | :---: | :---: | :---: |
 | <img src="admin_paneli.png" width="230"> | <img src="oturma_plani_gui.png" width="230"> | <img src="oturma_plani.png" width="230"> | <img src="derslik_girisi.png" width="230"> |
 
