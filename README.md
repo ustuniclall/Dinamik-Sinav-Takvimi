@@ -45,7 +45,7 @@ Sistem, veri bütünlüğünü ve kısıt kontrollerini sağlamak amacıyla MySQ
 
 | Admin Genel Yönetim | Otomatik Oturma Planı Arayüzü | PDF Çıktısı (Oturma Planı) |
 | :---: | :---: | :---: |
-| <img src="screenshots/admin_paneli.png" width="230"> | <img src="screenshots/oturma_plani_gui.png" width="230"> | <img src="screenshots/oturma_plani_pdf.png" width="230"> |
+| <img src="screenshots/admin_paneli.png" width="230"> | <img src="screenshots/oturma_plani_gui.png" width="230"> | <img src="screenshots/oturma_plani.png" width="230"> | <img src="screenshots/derslik_girisi.png" width="230"> |
 
 ## 👥 Geliştiriciler
 * **Merve Kübra ÖZTÜRK**
